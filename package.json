@@ -1,0 +1,22 @@
+{
+    "name": "tech-stack-signatures",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Detect a website's CMS, ecommerce platform, JS framework, analytics, CDN/hosting, payment and live-chat widgets from response headers, meta tags and script sources.",
+    "main": "index.js",
+    "exports": {
+        ".": "./index.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "devDependencies": {
+        "cheerio": "^1.0.0"
+    },
+    "scripts": {
+        "test": "node --test"
+    }
+}
