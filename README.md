@@ -39,7 +39,7 @@ const { detected, server, poweredBy, generator } = detectTechStack({
 // detected: { cms: [], ecommerce: [], jsFrameworks: [], analytics: [], cdnHosting: [], payment: [], liveChat: [] }
 ```
 
-Also exported: `SIGNATURES` (the list of `{ name, category, test }` rules) and `CATEGORIES`.
+Also exported: `SIGNATURES`, the list of `{ name, category, test }` rules.
 
 ## Changing signatures
 
